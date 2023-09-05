@@ -1,0 +1,51 @@
+body {
+    color: #f9f6f6;
+    overflow: hidden;
+}
+
+.nav-tab {
+    background-color: #0D0D0D;
+}
+
+.logo {
+    width: 50px;
+}
+
+i {
+    cursor: pointer;
+}
+
+.meal-layer {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(249, 246, 246, 0.500);
+    top: 100%;
+    transition: .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meal:hover .meal-layer {
+    top: 0;
+}
+
+.side-nav-menu {
+    z-index: 100;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.loading-screen {
+    z-index: 999;
+    display: flex;
+}
+
+.inner-loading-screen {
+    position: absolute;
+    z-index: 9;
+    background-color: #0D0D0D;
+    display: flex;
+}
